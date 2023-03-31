@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_InstancedIndirectColor
+  m_Shader: {fileID: 4800000, guid: 74d9b1f8b5bd9e34d9eb2f4869fc5aa8, type: 3}
+  m_ValidKeywords:
+  - _RECEIVE_SHADOWS_OFF
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTexture:
+        m_Texture: {fileID: 2800000, guid: 3c59075676be1d4438832cce5ef4b752, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 4052c8a367f1b1b4d9c9420a697e0a60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FurTex:
+        m_Texture: {fileID: 2800000, guid: 3c59075676be1d4438832cce5ef4b752, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainColorTexture:
+        m_Texture: {fileID: 2800000, guid: 3c59075676be1d4438832cce5ef4b752, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3c59075676be1d4438832cce5ef4b752, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScaleMap:
+        m_Texture: {fileID: 2800000, guid: aee0aa70ae382fb498de6bf75e976d35, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindMap:
+        m_Texture: {fileID: 2800000, guid: 4355ef8eb6f5dfa40a11227ab2b7671f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0.153
+    - _AlphaClipShadows: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaToCoverage: 0
+    - _AmbientLightIntensity: 1
+    - _AttenAlpha: 0.298
+    - _BendFlattenStrength: 0.292
+    - _BendMode: 0
+    - _BendPushStrength: 0.47
+    - _Billboard: 1
+    - _BumpScale: 0.36
+    - _ClipSpaceOffset: -2.33
+    - _ColorMapHeight: 0.292
+    - _ColorMapStrength: 0.351
+    - _Cull: 2
+    - _Cutoff: 0.128
+    - _Cutoff1: 0.14
+    - _CutoffEnd: 0.335
+    - _DarkMin: 0.425
+    - _EdgeFade: 0.23
+    - _EnvironmentReflections: 1
+    - _FadeAngleThreshold: 0
+    - _FadingOn: 0
+    - _FurLength: 0.1
+    - _FurLength1: 0.1
+    - _GravityStrength: 0
+    - _InnerCutoff: 0.524
+    - _InnerTransparent: 0.71
+    - _Intensity: 1
+    - _LightingMode: 1
+    - _MaxDis: 100
+    - _NormalFlattenDepthNormals: 0.52
+    - _NormalFlattening: 0.084
+    - _NormalScale: 1
+    - _NormalSpherify: 0.199
+    - _NormalSpherifyMask: 0
+    - _OcclusionStrength: 0.505
+    - _PerspectiveCorrection: 0
+    - _PushRadius: 1.22
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 0
+    - _ReflectionProbeIntensity: 0.516
+    - _ReflectionProbeLevel: 0.7
+    - _Scalemap: 1
+    - _SecondarySmoothness: 0.5
+    - _SecondarySpecularIntensity: 1
+    - _ShadowCutoff: 0.048
+    - _ShadowLerp: 0
+    - _Smoothness: 0.3
+    - _SpecularHighlights: 1
+    - _SpeculatInensity: 1
+    - _Strength: 1.39
+    - _TranslucencyDirect: 0.267
+    - _TranslucencyFalloff: 1
+    - _TranslucencyIndirect: 0.061
+    - _TranslucencyOffset: 0
+    - _Transparent: 0.61
+    - _Transparent1: 0.8
+    - _VertexDarkening: 0.84
+    - _WindAmbientStrength: 0.044
+    - _WindGustFreq: 0.99
+    - _WindGustStrength: 0.194
+    - _WindGustTint: 0
+    - _WindObjectRand: 1
+    - _WindRandStrength: 0.44
+    - _WindSpeed: 1.14
+    - _WindSwinging: 1
+    - _WindVertexRand: 0.316
+    - _shadeSoft: 0.366
+    - _windSpeed: 0.1
+    - _windStrength: 0.25
+    m_Colors:
+    - _BackLightingColor: {r: 0.972549, g: 0.8509804, b: 0.6666667, a: 1}
+    - _BaseColor: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
+    - _BendTint: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FadeFar: {r: 15.043243, g: 102.65138, b: 0, a: 0}
+    - _FadeNear: {r: 0, g: 3.0086498, b: 0, a: 0}
+    - _FurDirection: {r: 0, g: -0.65, b: 0, a: 0}
+    - _Gravity: {r: 0, g: -1, b: 0, a: 0}
+    - _HueVariation: {r: 0.6132076, g: 0.5813902, b: 0.5813902, a: 0}
+    - _LODDebugColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 1, g: 0.740566, b: 0.740566, a: 0}
+    - _ScalemapInfluence: {r: 1, g: 1.61, b: 1, a: 0}
+    - _SpecularColor: {r: 1, g: 0.72021246, b: 0.6179246, a: 0}
+    - _WindDirection: {r: 1, g: 0, b: 4, a: 0}
+    - _wind: {r: 0, g: -1, b: 0, a: 0}
+  m_BuildTextureStacks: []

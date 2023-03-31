@@ -1,0 +1,8 @@
+﻿#ifndef H3D_KEYWORD_SWITCH__HLSL
+#define H3D_KEYWORD_SWITCH__HLSL
+
+float _H3DSSAO;
+float _CAPSULE_OCCLUSION;
+float _FURSHADOW;
+float _FURBENDING;
+#endif
